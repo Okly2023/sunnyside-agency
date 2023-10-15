@@ -45,7 +45,7 @@ html::-webkit-scrollbar-thumb{
 */
 .header{
   padding: 1.5rem 7%;
-  background-image: url(image-header.jpg);
+  background-image: url(images/image-header.jpg);
   
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .main2 .grid-img1{
-  background-image: url(image-graphic-design.jpg);
+  background-image: url(images/image-graphic-design.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -186,7 +186,7 @@ html::-webkit-scrollbar-thumb{
 
  
 .main2 .grid-img2{
-  background-image: url(image-photography.jpg);
+  background-image: url(images/image-photography.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -301,3 +301,51 @@ html::-webkit-scrollbar-thumb{
    
   
  }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    html {
+      font-size: 50%; /* Adjust the base font size for smaller screens */
+    }
+  
+    .header .container,
+    .header .container2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .header .container .navbar,
+    .header .container .button {
+      margin-top: 1rem;
+    }
+  
+    .main1 .grid-backgrnd,
+    .main1 .gridimg1,
+    .main1 .gridimg2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .main1 .grid-backgrnd h1,
+    .main1 .gridimg1 h2,
+    .main1 .gridimg2 h2 {
+      padding-top: 10rem;
+    }
+  
+    .main1 .grid-backgrnd p,
+    .main2 .grid-img1 p,
+    .main2 .grid-img2 p {
+      padding-top: 2rem;
+    }
+  
+    .blog .flex_blog {
+      flex-direction: column;
+    }
+  
+    .menu img {
+      width: 50%;
+    }
+  }
+  
