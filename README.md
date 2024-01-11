@@ -1,7 +1,10 @@
-
 # Sunnyside Agency Landing Page CSS
 
 This document describes the CSS used in the Sunnyside Agency Landing Page project.
+
+## Live Site
+
+You can view the live site at [this link](https://okly2023.github.io/sunnyside-agency/).
 
 ## CSS File: style.css
 
